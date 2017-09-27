@@ -1,6 +1,6 @@
 Name:           opencore-amr
-Version:        0.1.3
-Release:        5%{?dist}
+Version:        0.1.5
+Release:        2%{?dist}
 Summary:        OpenCORE Adaptive Multi Rate Narrowband and Wideband speech lib
 Group:          System Environment/Libraries
 License:        ASL 2.0
@@ -62,6 +62,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_libdir}/pkgconfig/opencore-amr??.pc
 
 %changelog
+
+* Tue Sep 26 2017 David Vásquez <davidjeremias82 AT gmail DOT com> - 0.1.5-2
+- Updated to 0.1.5-2
 
 * Fri Jul 08 2016 David Vásquez <davidjeremias82 AT gmail DOT com> - 0.1.3-5
 - Massive rebuild
