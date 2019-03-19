@@ -8,6 +8,7 @@ URL:            http://sourceforge.net/projects/opencore-amr/
 Source0:        http://downloads.sourceforge.net/%{name}/%{name}-%{version}.tar.gz
 Patch0:         opencore-amr-0.1.3-fix_pc.patch
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
+BuildRequires:	gcc-c++
 
 %description
 Library of OpenCORE Framework implementation of Adaptive Multi Rate Narrowband
